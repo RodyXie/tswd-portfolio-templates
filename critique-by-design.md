@@ -1,59 +1,80 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://rodyxie.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# Title
-Text here...
+# Critique by Design: Plastic waste by industrial sector
 
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+This project redesigns *Plastic waste generation by industrial sector, 2019* from Our World in Data. I wanted to make the industry comparison visible immediately, while preserving the regional context that readers may still want to explore.
 
 ## Step one: the visualization
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+[View the original visualization](https://ourworldindata.org/grapher/plastic-waste-generation-by-industrial-sector)
+
+I selected this visualization because it uses a real, public dataset and addresses an important environmental topic. It contains two meaningful dimensions: how much plastic waste each industrial sector generates globally, and how that waste is distributed across countries and regions. This made it a useful example for practicing critique and redesign.
+
+At first, I was drawn to the fact that packaging appears to be a major contributor to plastic waste. However, the original layout made that takeaway harder to see than it needed to be.
 
 ## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+
+The original visualization is comprehensive, but it is difficult to read quickly.
+
+- The title emphasizes **industrial sectors**, but the first visual impression is a long set of regional rankings. The central industry comparison is not immediately clear.
+- Each sector is presented as a separate mini-chart. Readers must scan across many panels to compare sectors.
+- The global total ("World") appears alongside regions, even though it is an aggregate rather than one comparable region. This can be confusing.
+- The color treatment highlights the world total but does not clearly communicate a consistent visual story across the sectors.
+- The chart contains many numbers and labels, so the main takeaway gets buried in detail.
+
+The critique helped me identify the main design goal: lead with the sector comparison, then show the regional context as supporting information rather than making readers reconstruct it from separate panels.
 
 ## Step three: Sketch a solution
 
+<img width="1536" height="1024" alt="sketch" src="https://github.com/user-attachments/assets/376a5d85-162a-4dc9-aef3-7def8263d135" />
+
+
+My initial sketch used one ranked horizontal bar chart to foreground the global industry comparison. Packaging was highlighted, while the other sectors were shown in gray. This design made the message much easier to see: packaging generates substantially more plastic waste than any other sector.
+
+However, this first sketch removed the country and regional information. It was useful as an early exploration of the main message, but it was not intended to be the final validated display. The values shown in the sketch were illustrative during the design process; the final visualization uses the source data in Tableau.
+
 ## Step four: Test the solution
 
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
+I showed the initial sketch to two peers and used the following questions to guide the conversation:
 
-Questions to ask (modify these for your own interviews): 
+- Can you tell me what you think this visualization is showing?
+- What is the first takeaway you notice?
+- Is there anything surprising or confusing?
+- Who do you think is the intended audience?
+- What would you change or add?
 
-- Can you tell me what you think this is?
-
-- Can you describe to me what this is telling you?
-
-- Is there anything you find surprising or confusing?
-
-- Who do you think is the intended audience for this?
-
-- Is there anything you would change or do differently?
-
-Results: 
-
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
-
+Results:
 
 | Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
+| -------- | ----------- | ----------- |
+| What is this chart showing? | Immediately understood that packaging was the largest source of plastic waste. | Also understood the main comparison, but asked where the waste was generated. |
+| What is confusing or missing? | Suggested showing packaging as a percentage of the global total. | Felt that removing regional information made the chart feel incomplete. |
+| What would you change? | Suggested larger text and a stronger headline. | Suggested using colors to distinguish countries and regions. |
 
-Synthesis: 
+### Synthesis
 
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
+Both interviewees understood the ranking more quickly than in the original visualization. Their feedback also showed that the redesign should not remove the regional information completely. Based on this feedback, I made three changes in the final redesign:
+
+1. I added a direct headline stating that packaging accounts for about 40% of global plastic waste.
+2. I retained regional context with color-coded segments within each sector bar.
+3. I used a single, larger chart with larger labels instead of many small panels.
 
 ## Step five: build the solution
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+Final redesigned visualization:
+https://public.tableau.com/views/hwweek4_17896592226070/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+The final design is a sorted horizontal stacked bar chart. Each full bar represents the global plastic waste generated by one industrial sector, so readers can compare the sectors directly by bar length. The colored segments show the contribution of each named country or region within that sector.
+
+The title leads with the main finding: packaging accounts for about 40% of global plastic waste in 2019. It is followed by a subtitle explaining that regional contributions vary across sectors. This approach keeps the primary story visible while retaining the regional information that users said they wanted.
+
+I excluded the "World" measure from the colored stacks because it is the global total, not a region. The gray segment labeled "Other / unlisted regions" is calculated as the global total minus the named country and regional values. I selected a stacked bar chart because it allows the reader to see both the total by sector and the regional composition in one view.
 
 ## References
-_List any references you used here._
+
+- Our World in Data. (2022). [Plastic waste generation by industrial sector](https://ourworldindata.org/grapher/plastic-waste-generation-by-industrial-sector). Data source: OECD (2022). Accessed September 17, 2026.
+- OECD. (2022). Plastic waste data, as cited by Our World in Data.
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
 
+I used ChatGPT (Codex) to help me brainstorm the critique, organize my redesign rationale, and troubleshoot Tableau steps. I created the final visualization in Tableau Public and checked the calculations and source attribution against the original dataset.
