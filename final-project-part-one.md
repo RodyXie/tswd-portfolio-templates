@@ -1,42 +1,60 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
-
 # Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+## When Does Spring Actually Arrive?
 
-Text here...
+Most of us think of spring as beginning on a specific date on the calendar. However, the actual signs of spring, such as plants growing their first leaves and producing their first blooms, appear at very different times depending on where we live. For this project, I want to explore when spring actually arrives across the United States and show how the season gradually moves across the country.
+
+I plan to begin the story in Pittsburgh, where the audience can connect the data to their own experience of seasonal change. From there, I will zoom out to compare Pittsburgh with other U.S. cities and eventually the entire country. Using First Leaf and First Bloom data, I want to show that spring is not something that begins everywhere on the same day. Instead, it is a seasonal transition that happens at different times across the country.
+
+**One-sentence summary:** Spring does not arrive everywhere at once—it gradually moves across the United States, creating very different experiences of the same season.
+
+### Story Structure
+
+The story will begin with a simple question: **When does spring actually begin?** I will first introduce the date we normally associate with the beginning of spring and compare it with natural indicators of spring in Pittsburgh, such as First Leaf and First Bloom. Starting with Pittsburgh gives the audience a familiar example before moving to a larger geographic view.
+
+Next, the story will zoom out to the United States. A map will show when spring typically arrives in different parts of the country based on First Leaf and First Bloom data. I want the audience to be able to visually follow the progression of spring as it moves across different regions over time.
+
+I will then compare several cities from different parts of the United States on the same timeline. This will make the differences between locations easier to understand and give the audience recognizable places to compare with Pittsburgh.
+
+Finally, the story will return to the original question. Instead of thinking of spring as a single date on the calendar, I want the audience to leave with a different way of thinking about the season: **spring is a journey across the country.**
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
 
-Text here...
+I plan to create several visualizations that follow the structure of the story. The initial sketches will include a Pittsburgh timeline comparing the calendar beginning of spring with First Leaf and First Bloom, a U.S. map showing the geographic differences in spring arrival, a visualization showing the progression of spring from earlier to later regions, and a timeline comparing several U.S. cities.
+
+*Initial sketches will be added here.*
 
 # The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
 
-Text here...
+My primary data source will be the **Extended Spring Indices from the USA National Phenology Network (USA-NPN)**. The Spring Indices estimate the start of spring using two main measures: First Leaf and First Bloom. These measures are based on models of early-season plant activity and provide a way to represent the biological arrival of spring rather than relying only on a fixed calendar date.
 
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+I plan to primarily use the 1991–2020 average Spring Index data to show how the typical arrival of spring varies geographically across the United States. I may also use annual Spring Index data to explore year-to-year variation in selected locations. The geographic data will be used to create maps and to compare selected cities, including Pittsburgh, so readers can see how the timing of spring differs across the country.
+
+I may also use NOAA U.S. Climate Normals as a secondary data source if additional temperature or seasonal climate information is useful for providing context. The main focus of the project, however, will remain on the First Leaf and First Bloom data from USA-NPN.
 
 | Name | URL | Description |
-|------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+| ---- | --- | ----------- |
+| USA National Phenology Network – Spring Indices | [USA-NPN Spring Index Data](https://www.usanpn.org/data/maps/spring) | First Leaf and First Bloom estimates across the United States. This will be the primary data source for the project. |
+| USA National Phenology Network – Observational Data | [USA-NPN Observational Data](https://www.usanpn.org/data/observational) | Plant phenology observations that may be used as additional context for the Spring Index data. |
+| NOAA U.S. Climate Normals | [NOAA U.S. Climate Normals](https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals) | Temperature and seasonal climate data that may be used as supporting context. |
 
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
 
-Text here...
+I plan to create the final project as an interactive scrolling data story using **Shorthand**, with the primary data visualizations created in **Tableau**. I plan to use a combination of maps and timelines so the audience can follow the arrival of spring both geographically and chronologically. The scrolling format will help connect the individual visualizations into one story rather than presenting them as a standalone dashboard.
 
 ## References
-_List any references you used here._
+
+USA National Phenology Network. “Spring Indices.”  
+https://www.usanpn.org/data/maps/spring
+
+USA National Phenology Network. “Observational Data.”  
+https://www.usanpn.org/data/observational
+
+NOAA National Centers for Environmental Information. “U.S. Climate Normals.”  
+https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+
+I used ChatGPT to brainstorm and refine the scope of my project, identify potential public data sources, and organize the initial story structure. I reviewed and revised the generated material and verified the data sources used for the project.
