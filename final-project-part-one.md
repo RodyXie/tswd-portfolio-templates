@@ -57,4 +57,4 @@ https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals
 
 ## AI acknowledgements
 
-I used ChatGPT to brainstorm and refine the scope of my project, identify potential public data sources, and organize the initial story structure. I reviewed and revised the generated material and verified the data sources used for the project.
+I used AI to refine the scope of my project, identify potential public data sources, and organize the initial story structure. I reviewed and revised the generated material and verified the data sources used for the project.
