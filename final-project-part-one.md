@@ -26,6 +26,15 @@ I plan to create several visualizations that follow the structure of the story. 
 
 *Initial sketches will be added here.*
 
+<img width="1522" height="1175" alt="IMG_0952" src="https://github.com/user-attachments/assets/c850f623-34bf-407f-b4fe-ea1f209ecb23" />
+
+<img width="1814" height="1175" alt="IMG_0953" src="https://github.com/user-attachments/assets/9c4d70fe-835c-4dcc-ae65-ac25ad264a40" />
+
+<img width="1290" height="768" alt="IMG_0955" src="https://github.com/user-attachments/assets/f95e7b67-370d-4268-9e59-18f0ff0b80b0" />
+
+<img width="1710" height="1094" alt="IMG_0956" src="https://github.com/user-attachments/assets/286ec8ca-3337-48c6-8e79-6984898c1ddf" />
+
+
 # The data
 
 My primary data source will be the **Extended Spring Indices from the USA National Phenology Network (USA-NPN)**. The Spring Indices estimate the start of spring using two main measures: First Leaf and First Bloom. These measures are based on models of early-season plant activity and provide a way to represent the biological arrival of spring rather than relying only on a fixed calendar date.
